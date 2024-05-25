@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="secondary">#184162</color>
+    <color name="items">#95A6AE </color>
+    <color name="color_principal">#96527C</color>
+    <color name="status_bar_color">#FF49454F</color>
+    <color name="background">#E4D8DA</color>
+    <color name="background2">#8BB5BD</color>
+    <color name="status_bar_color2">#C3AAB5</color>
+
+
+
+
 </resources>
