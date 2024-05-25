@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".createTaskBottomShettFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/add_24dp_fill0_wght400_grad0_opsz24"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:fontFamily="@font/bebas_neue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Crear Tarea"
+            android:textColor="@color/color_principal"
+            android:textSize="22sp"
+          />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Llenar lo campos"
+            android:textAlignment="center"
+            android:textColor="@color/secondary"
+            android:alpha="0.8"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Titulo Tarea"
+            android:textColor="@color/color_principal"
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@drawable/card_border_rosado"
+            android:padding="10dp"
+            android:id="@+id/addTaskTitle"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Descripcion de la tarea"
+            android:textColor="@color/color_principal"
+
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@drawable/card_border_rosado"
+            android:padding="10dp"
+            android:id="@+id/addTaskDescription"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Fecha"
+            android:textColor="@color/color_principal"
+
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@drawable/card_border_rosado"
+            android:padding="10dp"
+            android:id="@+id/taskDate"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Hora"
+            android:textColor="@color/color_principal"
+
+            tools:ignore="MissingPrefix" />
+
+        <EditText
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@drawable/card_border_rosado"
+            android:padding="10dp"
+            android:id="@+id/taskTime"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            fontPath="fonts/nunito_light.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/color_principal"
+
+            android:text="Add an event"
+            tools:ignore="MissingPrefix"
+              />
+
+        <EditText
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:background="@drawable/card_border_rosado"
+            android:padding="10dp"
+            android:id="@+id/taskEvent"
+            tools:ignore="MissingPrefix" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:id ="@+id/addTask"
+            android:text ="Crear Tarea"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            app:cornerRadius = "30dp"
+            android:backgroundTint="@color/secondary"
+
+
+             />
+
+    </LinearLayout>
+
+</ScrollView>

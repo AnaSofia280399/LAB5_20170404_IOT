@@ -41,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
                     if (checkCredentials == true){
                         Toast.makeText(LoginActivity.this, "Login exitoso", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        intent.putExtra("codigo_usuario", codigo);  // Envía el código como extra en el Intent
                         startActivity(intent);
                     } else{
                         Toast.makeText(LoginActivity.this, "Credenciales invalidas", Toast.LENGTH_SHORT).show();
